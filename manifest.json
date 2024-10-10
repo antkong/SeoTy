@@ -1,0 +1,21 @@
+{
+    "name": "SeoTy",
+    "short_name": "서티",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#90a4ff",
+    "theme_color": "#c3caf5",
+    "description": "Browse SeoTy menu and place orders online",
+    "icons": [
+      {
+        "src": "icon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }

@@ -1,0 +1,291 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+@font-face {
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Paperlogy-5Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Paperlogy-3Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-3Light.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 767px){
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+head {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Paperlogy-5Medium;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    max-width: 768px;
+}
+
+h2 {
+    font-family: Paperlogy-5Medium;
+    margin: 0;
+    padding: 0;
+}
+
+h3, h4, h5, h6, p {
+    font-family: Paperlogy-3Light;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: Paperlogy-8ExtraBold;
+    background-color: #c3caf5;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+    margin-top: 0;
+    padding: 0;
+    height: auto;
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+}
+
+.header h1 {
+    color: #1d2656;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.grid-header {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    gap: 1fr;
+    height: auto;
+}
+.header-left {
+    padding: 5px;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.header-mid {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: 5px; 
+}
+.header-right {
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.container {
+    border-radius: 10px;
+    height: auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1fr;
+    margin-top: 5px;
+    height: auto;
+}
+
+.section-text{
+    font-size: 10px;
+}
+
+.button {
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.main {
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    border-radius: 10px;  
+    margin-top: 70px;
+}
+.main p{
+    margin: 10px;
+    padding: 10px;
+}
+.main h2 {
+    margin: 10px;
+    padding: 10px;
+}
+.main h3 {
+    margin: 10px;
+    padding: 10px;
+}
+.grid-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    text-align: center;
+    margin: px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.main h2 {
+    font-size: 20px;
+
+}
+.main-part1 {
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 5fr;
+    height: 5fr;
+    border-radius: 25px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.main-part2 {
+    background-color: #c9e0ff;
+    padding: 10px;
+    width: 5fr;
+    height: 5fr;
+    border-radius: 25px;
+}
+.main-part3 {
+    background-color: #FFCFDA;
+    padding: 10px;
+    width: 5fr;
+    height: 5fr;
+    border-radius: 25px;
+}
+.main-part4 {
+    background-color: #d7ffb5;
+    padding: 10px;
+    width: 5fr;
+    height: 5fr;
+    border-radius: 25px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.main-part5 {
+    background-color: #FFDBC1;
+    padding: 10px;
+    width: 5fr;
+    height: 5fr;
+    border-radius: 25px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.bottom-design {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1fr;
+    margin-top: 5px;
+    height: auto;
+}
+.bottom-section {
+    background-color: #c9e0ff;
+    padding: 15px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.menu_bar {
+    font-family: Paperlogy-5Medium;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+    background-color: #c3caf5;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.section {
+    text-align: center;
+    color: #8b8b8b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: auto;
+}
+.section-use {
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    width: auto;
+}
+
+.info {
+    font-size: 10px;
+    text-align: center;
+    color: #8b8b8b;
+    padding-top: 10px;
+    margin: 5px 2px;
+    width: auto;
+    margin-bottom: 100px;
+}
+a {
+    text-decoration: none;
+    color: #8b8b8b;
+}
+
+.grid-matching {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1fr;
+    margin-top: 5px;
+    height: auto;
+}
+.grid-matching-part1 {
+    background-color: #c9e0ff;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    width: auto;
+}
+.grid-matching-part2 {
+    background-color: #c9e0ff;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    width: auto;
+}
